@@ -1,2 +1,50 @@
-# car-history-database
-Car history tracking database for repairs, ownership, and damage records
+# Car History Database  
+
+## 📚 Overview  
+The **Car History Database** is a web-based application designed to store and retrieve detailed car histories. The goal is to provide users with reliable and accessible information about a vehicle's past, including repairs, ownership, and damage records.  
+
+## 🚀 Features  
+- **Search by VIN:** Look up vehicle information using its unique Vehicle Identification Number (VIN).  
+- **Repair History:** Record and view detailed logs of repairs and maintenance.  
+- **Ownership Tracking:** Store historical ownership data.  
+- **Damage Records:** Document accidents and rebuilds.  
+
+## 🛠 Tech Stack  
+- **Backend:** Node.js (Express.js)  
+- **Database:** MongoDB (with Mongoose ODM)  
+- **Frontend:** React.js (or a simple HTML/JS UI for now)  
+- **Version Control:** GitHub  
+
+## 📋 Project Plan  
+### Week 1: Initial Setup  
+- Set up the Node.js environment.  
+- Create basic server structure and routes.  
+- Design initial database schema.  
+
+### Week 2: Core Features  
+- Implement VIN-based search functionality.  
+- Develop repair and damage logging API endpoints.  
+
+### Week 3: Frontend Prototype  
+- Create a simple UI for searching and displaying car data.  
+- Integrate with the backend APIs.  
+
+### Week 4: Testing and Documentation  
+- Write unit tests for API endpoints.  
+- Document API usage and deployment instructions.  
+
+## 🗂 Folder Structure  
+```plaintext
+car-history-database/  
+├── backend/  
+│   ├── routes/         # API routes  
+│   ├── models/         # Database schemas  
+│   ├── server.js       # Entry point  
+├── frontend/  
+│   ├── public/         # Static files (HTML, CSS, JS)  
+│   ├── src/            # React components  
+├── docs/  
+│   ├── requirements.md # Detailed requirements  
+│   ├── design.md       # Database and API design  
+│   ├── progress.md     # Weekly progress logs  
+├── README.md           # Project overview  
