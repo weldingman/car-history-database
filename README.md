@@ -35,16 +35,27 @@ The **Car History Database** is a web-based application designed to store and re
 
 ## 🗂 Folder Structure  
 ```plaintext
+# Car History Database
+
+This project tracks the history of vehicles, including ownership, repair records, and damage history. It is built using Node.js, Express, and MongoDB.
+
+## Folder Structure
+
+```plaintext
 car-history-database/  
 ├── backend/  
-│   ├── routes/         # API routes  
-│   ├── models/         # Database schemas  
-│   ├── server.js       # Entry point  
+│   ├── models/  
+│   │   └── vehicle.js         # Mongoose schema for vehicles  
+│   ├── controllers/           # Controller logic for handling requests  
+│   │   └── vehicleController.js  # Logic for managing vehicles (e.g., CRUD operations)  
+│   ├── routes/                # API routes  
+│   │   └── vehicleRoutes.js   # Routes for vehicle-related API endpoints  
+│   ├── server.js              # Entry point, connects to MongoDB  
 ├── frontend/  
-│   ├── public/         # Static files (HTML, CSS, JS)  
-│   ├── src/            # React components  
+│   ├── public/                # Static files (HTML, CSS, JS)  
+│   ├── src/                   # React components (or other UI framework)  
 ├── docs/  
-│   ├── requirements.md # Detailed requirements  
-│   ├── design.md       # Database and API design  
-│   ├── progress.md     # Weekly progress logs  
-├── README.md           # Project overview  
+│   ├── requirements.md        # Detailed requirements  
+│   ├── design.md              # Database and API design  
+│   ├── progress.md            # Weekly progress logs  
+├── README.md                  # Project overview  
