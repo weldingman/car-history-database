@@ -44,18 +44,14 @@ This project tracks the history of vehicles, including ownership, repair records
 ```plaintext
 car-history-database/  
 ├── backend/  
-│   ├── models/  
-│   │   └── vehicle.js         # Mongoose schema for vehicles  
-│   ├── controllers/           # Controller logic for handling requests  
-│   │   └── vehicleController.js  # Logic for managing vehicles (e.g., CRUD operations)  
-│   ├── routes/                # API routes  
-│   │   └── vehicleRoutes.js   # Routes for vehicle-related API endpoints  
-│   ├── server.js              # Entry point, connects to MongoDB  
+│   ├── routes/         # API routes  
+│   ├── models/         # Database schemas  
+│   ├── server.js       # Entry point  
 ├── frontend/  
-│   ├── public/                # Static files (HTML, CSS, JS)  
-│   ├── src/                   # React components (or other UI framework)  
+│   ├── public/         # Static files (HTML, CSS, JS)  
+│   ├── src/            # React components  
 ├── docs/  
-│   ├── requirements.md        # Detailed requirements  
-│   ├── design.md              # Database and API design  
-│   ├── progress.md            # Weekly progress logs  
-├── README.md                  # Project overview  
+│   ├── requirements.md # Detailed requirements  
+│   ├── design.md       # Database and API design  
+│   ├── progress.md     # Weekly progress logs  
+├── README.md           # Project overview  
