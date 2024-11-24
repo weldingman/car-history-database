@@ -44,20 +44,20 @@ This project tracks the history of vehicles, including ownership, repair records
 ```plaintext
 car-history-database/  
 ├── backend/  
-│   ├── api/                  # API-related files  
-│   │   ├── controllers/      # Controller logic for handling requests  
-│   │   │   └── vehicleController.js  # Logic for managing vehicles (CRUD operations)  
-│   │   ├── routes/           # API routes  
-│   │   │   └── vehicleRoutes.js   # Routes for vehicle-related API endpoints  
-│   ├── models/               # Mongoose schemas  
-│   │   └── vehicle.js        # Mongoose schema for vehicles  
-│   ├── server.js             # Entry point, connects to MongoDB  
+│   ├── api/                            # API-related files  
+│   │   ├── controllers/                # Controller logic for handling requests  
+│   │   │   └── vehicleController.js    # Logic for managing vehicles (CRUD operations)  
+│   │   ├── routes/                     # API routes  
+│   │   │   └── vehicleRoutes.js        # Routes for vehicle-related API endpoints  
+│   ├── models/                         # Mongoose schemas  
+│   │   └── vehicle.js                  # Mongoose schema for vehicles  
+│   ├── server.js                       # Entry point, connects to MongoDB  
 ├── frontend/  
-│   ├── public/               # Static files (HTML, CSS, JS)  
-│   ├── src/                  # React components (or other UI framework)  
+│   ├── public/                         # Static files (HTML, CSS, JS)  
+│   ├── src/                            # React components (or other UI framework)  
 ├── docs/  
-│   ├── requirements.md       # Detailed requirements  
-│   ├── design.md             # Database and API design  
-│   ├── progress.md           # Weekly progress logs  
-├── README.md                 # Project overview  
+│   ├── requirements.md                 # Detailed requirements  
+│   ├── design.md                       # Database and API design  
+│   ├── progress.md                     # Weekly progress logs  
+├── README.md                           # Project overview  
 
