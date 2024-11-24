@@ -37,7 +37,8 @@ The **Car History Database** is a web-based application designed to store and re
 ```plaintext
 # Car History Database
 
-This project tracks the history of vehicles, including ownership, repair records, and damage history. It is built using Node.js, Express, and MongoDB.
+This project tracks the history of vehicles, including ownership, repair records, and damage history. 
+It is built using Node.js, Express, and MongoDB.
 
 ## Folder Structure
 
